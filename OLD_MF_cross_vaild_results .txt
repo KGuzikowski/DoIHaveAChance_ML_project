@@ -1,0 +1,773 @@
+Using cuda
+min_loss: 0.20797112584114075
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (partner_emb): Embedding(274, 10)
+), 'weights': (0, 1), 'bias': None, 'emb_size': 10, 'epochs': 300, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.2022731602191925
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (partner_emb): Embedding(274, 50)
+), 'weights': (0, 1), 'bias': None, 'emb_size': 50, 'epochs': 170, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.20001789927482605
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (partner_emb): Embedding(274, 100)
+), 'weights': (0, 1), 'bias': None, 'emb_size': 100, 'epochs': 130, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19918084144592285
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (partner_emb): Embedding(274, 150)
+), 'weights': (0, 1), 'bias': None, 'emb_size': 150, 'epochs': 120, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1932343989610672
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 0), 'emb_size': 10, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18966954946517944
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 0), 'emb_size': 50, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18889901041984558
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 0), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18845336139202118
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 0), 'emb_size': 150, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19373826682567596
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-0.01, 0.01), 'emb_size': 10, 'epochs': 110, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1900835931301117
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-0.01, 0.01), 'emb_size': 50, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18904563784599304
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-0.01, 0.01), 'emb_size': 100, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18865905702114105
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-0.01, 0.01), 'emb_size': 150, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19378621876239777
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 1), 'emb_size': 10, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19012577831745148
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 1), 'emb_size': 50, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1889941692352295
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 1), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18860478699207306
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (0, 1), 'emb_size': 150, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19359195232391357
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-1, 1), 'emb_size': 10, 'epochs': 110, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1899234503507614
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-1, 1), 'emb_size': 50, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18912792205810547
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-1, 1), 'emb_size': 100, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1884978711605072
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 1), 'bias': (-1, 1), 'emb_size': 150, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.20751073956489563
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (partner_emb): Embedding(274, 10)
+), 'weights': (-1, 1), 'bias': None, 'emb_size': 10, 'epochs': 300, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.20162124931812286
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (partner_emb): Embedding(274, 50)
+), 'weights': (-1, 1), 'bias': None, 'emb_size': 50, 'epochs': 170, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.20004652440547943
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (partner_emb): Embedding(274, 100)
+), 'weights': (-1, 1), 'bias': None, 'emb_size': 100, 'epochs': 120, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19885839521884918
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (partner_emb): Embedding(274, 150)
+), 'weights': (-1, 1), 'bias': None, 'emb_size': 150, 'epochs': 120, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19371478259563446
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 0), 'emb_size': 10, 'epochs': 140, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19017410278320312
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 0), 'emb_size': 50, 'epochs': 100, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18912404775619507
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 0), 'emb_size': 100, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1881617307662964
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 0), 'emb_size': 150, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1932501494884491
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-0.01, 0.01), 'emb_size': 10, 'epochs': 130, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19035710394382477
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-0.01, 0.01), 'emb_size': 50, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1887119859457016
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-0.01, 0.01), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18881870806217194
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-0.01, 0.01), 'emb_size': 150, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19371850788593292
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 1), 'emb_size': 10, 'epochs': 130, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18974895775318146
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 1), 'emb_size': 50, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18921604752540588
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 1), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18844833970069885
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 1), 'emb_size': 150, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19384779036045074
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-1, 1), 'emb_size': 10, 'epochs': 110, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1898471564054489
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-1, 1), 'emb_size': 50, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1893954575061798
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-1, 1), 'emb_size': 100, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18880346417427063
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (-1, 1), 'emb_size': 150, 'epochs': 300, 'weight_decay': 0.001, 'learning_rate_poss': 0.0001}
+==================================================
+min_loss: 0.20639626681804657
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (partner_emb): Embedding(274, 10)
+), 'weights': (0, 0.2), 'bias': None, 'emb_size': 10, 'epochs': 50, 'weight_decay': 0.0, 'learning_rate_poss': 0.01}
+==================================================
+min_loss: 0.20208866894245148
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (partner_emb): Embedding(274, 50)
+), 'weights': (0, 0.2), 'bias': None, 'emb_size': 50, 'epochs': 140, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1995571106672287
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (partner_emb): Embedding(274, 100)
+), 'weights': (0, 0.2), 'bias': None, 'emb_size': 100, 'epochs': 130, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19950608909130096
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (partner_emb): Embedding(274, 150)
+), 'weights': (0, 0.2), 'bias': None, 'emb_size': 150, 'epochs': 110, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19347986578941345
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 0), 'emb_size': 10, 'epochs': 160, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19039325416088104
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 0), 'emb_size': 50, 'epochs': 110, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1892998367547989
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 0), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.188600555062294
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 0), 'emb_size': 150, 'epochs': 300, 'weight_decay': 0.001, 'learning_rate_poss': 0.0001}
+==================================================
+min_loss: 0.19327208399772644
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 10, 'epochs': 100, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.189695805311203
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 50, 'epochs': 100, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18859010934829712
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18894466757774353
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 150, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1934940665960312
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 1), 'emb_size': 10, 'epochs': 100, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19016090035438538
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 1), 'emb_size': 50, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18940375745296478
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 1), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18833178281784058
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (0, 1), 'emb_size': 150, 'epochs': 300, 'weight_decay': 0.001, 'learning_rate_poss': 0.0001}
+==================================================
+min_loss: 0.1937907487154007
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-1, 1), 'emb_size': 10, 'epochs': 150, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19009391963481903
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-1, 1), 'emb_size': 50, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1888086050748825
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-1, 1), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18874792754650116
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (0, 0.2), 'bias': (-1, 1), 'emb_size': 150, 'epochs': 300, 'weight_decay': 0.001, 'learning_rate_poss': 0.0001}
+==================================================
+min_loss: 0.20550571382045746
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (partner_emb): Embedding(274, 10)
+), 'weights': (-0.2, 0.2), 'bias': None, 'emb_size': 10, 'epochs': 70, 'weight_decay': 0.0, 'learning_rate_poss': 0.01}
+==================================================
+min_loss: 0.20263981819152832
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (partner_emb): Embedding(274, 50)
+), 'weights': (-0.2, 0.2), 'bias': None, 'emb_size': 50, 'epochs': 150, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.200888529419899
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (partner_emb): Embedding(274, 100)
+), 'weights': (-0.2, 0.2), 'bias': None, 'emb_size': 100, 'epochs': 130, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.2001781016588211
+best_settings: {'model': MatrixFactorizationWithoutBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (partner_emb): Embedding(274, 150)
+), 'weights': (-0.2, 0.2), 'bias': None, 'emb_size': 150, 'epochs': 120, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1937091052532196
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 0), 'emb_size': 10, 'epochs': 100, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18997126817703247
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 0), 'emb_size': 50, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1894567608833313
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 0), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18886235356330872
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 0), 'emb_size': 150, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19351927936077118
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 10, 'epochs': 170, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19024033844470978
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 50, 'epochs': 110, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18929746747016907
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1887187659740448
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-0.01, 0.01), 'emb_size': 150, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19278277456760406
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 1), 'emb_size': 10, 'epochs': 140, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.189778670668602
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 1), 'emb_size': 50, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1893145740032196
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 1), 'emb_size': 100, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18858247995376587
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (0, 1), 'emb_size': 150, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19403967261314392
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-1, 1), 'emb_size': 10, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19033651053905487
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-1, 1), 'emb_size': 50, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18889495730400085
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-1, 1), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18874527513980865
+best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-0.2, 0.2), 'bias': (-1, 1), 'emb_size': 150, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.20673827826976776
+best_settings: {'model': MatrixFactorizationWithoutBiasXavier(
+  (person_emb): Embedding(277, 10)
+  (partner_emb): Embedding(274, 10)
+), 'weights': 'xavier', 'bias': None, 'emb_size': 10, 'epochs': 300, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.20127971470355988
+best_settings: {'model': MatrixFactorizationWithoutBiasXavier(
+  (person_emb): Embedding(277, 50)
+  (partner_emb): Embedding(274, 50)
+), 'weights': 'xavier', 'bias': None, 'emb_size': 50, 'epochs': 170, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19942627847194672
+best_settings: {'model': MatrixFactorizationWithoutBiasXavier(
+  (person_emb): Embedding(277, 100)
+  (partner_emb): Embedding(274, 100)
+), 'weights': 'xavier', 'bias': None, 'emb_size': 100, 'epochs': 110, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19838868081569672
+best_settings: {'model': MatrixFactorizationWithoutBiasXavier(
+  (person_emb): Embedding(277, 150)
+  (partner_emb): Embedding(274, 150)
+), 'weights': 'xavier', 'bias': None, 'emb_size': 150, 'epochs': 110, 'weight_decay': 0.0, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19422483444213867
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 0), 'emb_size': 10, 'epochs': 160, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1901477724313736
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 0), 'emb_size': 50, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1891491413116455
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 0), 'emb_size': 100, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18867172300815582
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 0), 'emb_size': 150, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19381673634052277
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-0.01, 0.01), 'emb_size': 10, 'epochs': 120, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18979983031749725
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-0.01, 0.01), 'emb_size': 50, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1891355812549591
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-0.01, 0.01), 'emb_size': 100, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18878889083862305
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-0.01, 0.01), 'emb_size': 150, 'epochs': 90, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1933363676071167
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 1), 'emb_size': 10, 'epochs': 110, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.19022899866104126
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 1), 'emb_size': 50, 'epochs': 100, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18883028626441956
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 1), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18829898536205292
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (0, 1), 'emb_size': 150, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1932290941476822
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 10)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 10)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-1, 1), 'emb_size': 10, 'epochs': 140, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18996021151542664
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 50)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 50)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-1, 1), 'emb_size': 50, 'epochs': 80, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.18909528851509094
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 100)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 100)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-1, 1), 'emb_size': 100, 'epochs': 70, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+min_loss: 0.1884380578994751
+best_settings: {'model': MatrixFactorizationWithBiasXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': 'xavier', 'bias': (-1, 1), 'emb_size': 150, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+==================================================
+
+
+??????????????????????????????????????????????????
+THE WINNER IS:
+best min_loss: 0.1881617307662964
+best best_settings: {'model': MatrixFactorizationWithBiasNoXavier(
+  (person_emb): Embedding(277, 150)
+  (person_bias): Embedding(277, 1)
+  (partner_emb): Embedding(274, 150)
+  (parnter_bias): Embedding(274, 1)
+), 'weights': (-1, 1), 'bias': (0, 0), 'emb_size': 150, 'epochs': 60, 'weight_decay': 0.001, 'learning_rate_poss': 0.001}
+Cross validation took 65399.79477787018
