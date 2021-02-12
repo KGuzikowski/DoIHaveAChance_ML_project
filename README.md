@@ -4,4 +4,4 @@
 
 Its main functionality is telling someone how probable is that other person will eg. date, go out or ... with them.
 
-Docs will be here...
+Its main application would be to be used at dating platform to "recommend" people to people.
